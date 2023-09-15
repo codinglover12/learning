@@ -1,0 +1,55 @@
+/* Apply styling to the title label */
+.label-title {
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto";
+}
+
+/* Apply styling to the text fields */
+.text-field {
+    -fx-pref-width: 300px;
+    -fx-font-size: 18px;
+}
+
+/* Apply styling to the "Shorten" button */
+.button-shorten {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #45A049);
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-font-weight: bold;
+}
+
+/* Apply styling to the "Copy" button */
+.button-copy {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-font-weight: bold;
+}
+
+/* Apply styling to the "Copied" label */
+.label-copied {
+    -fx-text-fill: green;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-underline: false;
+}
+
+/* Apply styling to the circular icon */
+.circle-icon {
+    -fx-stroke: yellow;
+    -fx-stroke-width: 8px;
+}
+
+/* Apply styling to the background */
+.background {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+/* Add any additional styling rules you need */
